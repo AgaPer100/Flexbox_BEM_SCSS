@@ -1,0 +1,18 @@
+.article-list {
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .article {
+        flex-basis: 30%;
+
+        @media(max-width: 1023px) {
+            flex-basis: 45%;
+        }
+
+        @media(max-width: 799px) {
+            flex-basis: 95%;
+        }
+    }
+}

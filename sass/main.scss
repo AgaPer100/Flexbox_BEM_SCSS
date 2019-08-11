@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700|Roboto:400,700&display=swap&subset=latin-ext');
+
+
+@import 'variables'
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    background-color: $main-color;
+    font-family: $default-font;
+}
+
+@import 'wrapper'
+
+@import 'logo'
+
+@import 'search'
+
+@import 'settings'
+
+@import 'menu'
+
+@import 'article'
+
+@import 'main-articles'
+
+@import 'article-list'
+
+@import 'footer'
